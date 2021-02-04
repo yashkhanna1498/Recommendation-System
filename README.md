@@ -5,8 +5,6 @@ Content Based Recommender System recommends movies similar to the movie user lik
 For Dataset:
 The details of the movies(title, genre, runtime, rating, poster, etc) were fetched using an API by TMDB, and using the IMDB id of the movie in the API,web scraping was done to get the reviews given by the user in the IMDB site using beautifulsoup4 and performed sentiment analysis on those reviews. Used Kaggle IMDB 5000 Dataset and The Movies Dataset as well to make a consolidated dataset. 
 
-A Movie Recommendation and review system. Data taken from IMDB. Used collaborative filtering for Recommendation system. Sentiment analysis using NLP. Deployed on Heroku. Developed using Flask. Movies available in English for now. Autocomplete Option, Suggests movie names.
-
 <p align='center'>
 <img src="https://github.com/yashkhanna1498/Recommendation-System/blob/main/images/Screenshot%20(129).png?raw=true">
 </p>
@@ -55,6 +53,7 @@ The following dependencies can be found in requirements.txt file:
   6. [NLTK](https://www.nltk.org/)
   
 ### Recommendation System developed using Cosine similarity and sentiment analysis done using Multinomial naive Bayes. The entire code has been developed using Python, HTML, CSS, Javascript programming languages and is hosted on Heroku. The analysis and model is developed using SkcitLearn library and various machine learning models, The website is developed using Flask. 
+Data taken from IMDB. Used collaborative filtering for Recommendation system. Sentiment analysis using NLP. Deployed on Heroku. Developed using Flask. Movies available in English for now. Autocomplete Option, Suggests movie names.
 
 ### References
     https://www.youtube.com/watch?v=UbCWoMf80PY
